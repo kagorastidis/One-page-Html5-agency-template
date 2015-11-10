@@ -1,0 +1,204 @@
+
+body{
+	padding-bottom: 30%;
+}
+
+h1,h5{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-family: "Lato", serif;
+}
+
+h1{
+	font-size: 3em !important;
+	position: relative;
+	text-align: center;
+}
+
+section{
+	margin-bottom: 10%;
+}
+
+p{
+	font-family: "Lato", Serif;
+	font-size: 1em;
+	font-weight: lighter;
+	padding: 60px;
+}
+
+
+.container{
+	text-align: center;
+}
+
+
+#header{
+	background: url("../img/header.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	min-height: 600px;
+	
+}
+
+#header-promo{
+	text-align: center;
+	padding-top: 5%;
+}
+
+#header-promo h1{
+	color: #fff;
+}
+
+#header-promo h5{
+	color: #fff;
+}
+
+#scroll{
+	padding-top: 25%;
+}
+
+.border{
+	border: 1px solid #1b1b1b;
+	text-align: center;
+}
+
+
+.border h1{
+	background: #fff none repeat scroll 0 0;
+    left: 15%;
+    position: absolute;
+    top: -12%;
+    width: 70%;
+}
+
+
+.white{
+
+    color: #fff;
+    text-align: center;
+    border-top: none;
+    border-color: #fff;
+}
+
+
+.white h1{
+	background: transparent !important;
+	color: #fff;
+}
+
+
+
+#services{
+	padding-top: 2%;
+	background: url("../img/services.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+#we-do h5{
+	font-weight: bolder;
+}
+
+#we-do img{
+
+	display: block;
+	margin: auto;
+}
+
+#first{
+	padding-top: 15%;
+}
+
+#we-do h1{
+	top:-4%;
+}
+
+#works img{
+	height: 200px;
+	z-index: 999;
+}
+
+#works div{
+	padding-top:20px;
+}
+
+
+#works figcaption a{
+	color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    left: 1em;
+    position: absolute;
+    text-transform: uppercase;
+    top: 82%;
+}
+
+#works figcaption a:hover{
+	text-decoration: none;
+}
+
+
+#contact-row{
+	margin-top: 10%;
+}
+
+#contact-btn{
+	background: #1b1b1b;
+	color: #fff;
+	padding: 12px;
+	width: 50%;
+	font-size: 1.3em;
+	font-weight:bold;
+	text-transform: uppercase;
+	border: 1px solid #1b1b1b;
+	margin-bottom: 20px;
+	transition:all .5s ease;
+}
+
+#contact-btn:hover{
+	color: #1b1b1b;
+	background: #fff;
+	border-color: #1b1b1b;
+	cursor: pointer;
+}
+
+footer a {
+	color: #1b1b1b;
+}
+
+footer img{
+	margin-right: 15px;
+}
+
+footer a:hover{
+	color: #1b1b1b;
+}
+
+footer{
+	color: #888;
+}
+
+
+
+@media(max-width: 991px){
+	#first{
+		padding-top: 35%;
+	}
+}
+
+@media(max-width:768px){
+	#contact p{
+		margin-top: 15px;
+	}
+}
+
+@media(max-width: 359px){
+	section{
+		margin-bottom: 20%;
+	}
+
+	#contact-row{
+		margin-top: 20%;
+	}
+}
