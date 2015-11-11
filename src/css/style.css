@@ -17,6 +17,7 @@ h1{
 
 section{
 	margin-bottom: 10%;
+	overflow:hidden;
 }
 
 p{
